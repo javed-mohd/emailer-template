@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.uniqlo.com/jp/ja/contents/feature/common/logotypes/uniqlo_roman_64.png">
+    <title>UNIQLO HEATTECH</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 14px auto 0px;
+        }
+
+        .sub-copy {
+            padding: 20px 10px;
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: .2px;
+            background-color: #fafafa;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .main-banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .main-banner img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .cta-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .cta-buttons a {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            letter-spacing: .2px;
+            font-weight: bold;
+        }
+
+        .cta-buttons a:hover {
+            background-color: #cc0000;
+        }
+
+        .product-lineup {
+            padding: 20px;
+        }
+
+        .product-lineup h2 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+            position: relative;
+            color: #333333;
+        }
+
+        .product-lineup h2::before,
+        .product-lineup h2::after {
+            position: absolute;
+            content: "";
+            width: 30%;
+            height: 3px;
+            background: #ff0000;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 5px;
+        }
+
+        .product-lineup h2::before {
+            left: 0;
+        }
+
+        .product-lineup h2::after {
+            right: 0;
+        }
+
+        .product-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-card {
+            width: 45%;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            margin: 10px 0;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .product-card .btns {
+            padding: 10px 0;
+        }
+
+        .product-card .btns h4 {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #333333;
+        }
+
+        .product-card a {
+            color: #ffffff;
+            text-decoration: none;
+            background: #ff0000;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-transform: uppercase;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 10px;
+            letter-spacing: .2px;
+            transition: background 0.3s;
+        }
+
+        .product-card a:hover {
+            background: #cc0000;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #888888;
+            background-color: #f4f4f4;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        @media screen and (max-width: 425px) {
+            .product-card {
+                width: 100%;
+            }
+
+            .cta-buttons a {
+                margin: 5px 0;
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.uniqlo.com/jp/ja/contents/feature/common/icons/header.svg" alt="UNIQLO Logo" style="max-width: 150px;">
+            <h1>DISCOVER HEATTECH | INNOVATIVE THERMAL CLOTHING TECHNOLOGY</h1>
+        </div>
+        <div class="sub-copy">
+            <p>Discover UNIQLO's LifeWear functionality for all-weather comfort. HEATTECH micron-sized fibers capture the energy of water molecules emitted from the body and convert them into warmth while retaining heat.</p>
+        </div>
+        <div class="main-banner">
+            <img src="https://javed-mohd.github.io/irfan_res/images/emailer_bg.png" loading="lazy" alt="UNIQLO HEATTECH">
+        </div>
+        <div class="cta-buttons">
+            <a href="https://www.uniqlo.com/in/en/women/innerwear/heattech-thermals">SHOP WOMEN</a>
+            <a href="https://www.uniqlo.com/in/en/men/innerwear/heattech">SHOP MEN</a>
+            <a href="https://www.uniqlo.com/in/en/kids/innerwear/heattech">SHOP KIDS</a>
+        </div>
+        <div class="product-lineup">
+            <h2>For HER</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/in/imagesgoods/442063/item/ingoods_07_442063.jpg?width=750" loading="lazy" alt="T-Shirt">
+                    <div class="btns">
+                        <h4>T-Shirt</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E442063-000?colorCode=COL07&sizeCode=SMA004">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/in/imagesgoods/464950/item/ingoods_01_464950.jpg?width=750" loading="lazy" alt="Long Sleeve T-Shirt">
+                    <div class="btns">
+                        <h4>Long Sleeve T-Shirt</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E464950-000?colorCode=COL01&sizeCode=SMA004">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/in/imagesgoods/453166/item/ingoods_09_453166.jpg?width=750" loading="lazy" alt="Thermal Leggings">
+                    <div class="btns">
+                        <h4>Thermal Leggings</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E453166-000?colorCode=COL09&sizeCode=SMA005">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/460406/item/goods_09_460406.jpg?width=750" loading="lazy" alt="Crew Neck T-Shirt">
+                    <div class="btns">
+                        <h4>Crew Neck T-Shirt</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E460406-000?colorCode=COL09&sizeCode=SMA003">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>For HIM</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/in/imagesgoods/461011/item/ingoods_08_461011.jpg?width=750" loading="lazy" alt="Crew Neck T-Shirt">
+                    <div class="btns">
+                        <h4>Crew Neck T-Shirt</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E461011-000?colorCode=COL08&sizeCode=SMA004">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/in/imagesgoods/450529/item/ingoods_01_450529.jpg?width=750" loading="lazy" alt="T-Shirt (Extra Warm)">
+                    <div class="btns">
+                        <h4>T-Shirt (Extra Warm)</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E450529-000?colorCode=COL01&sizeCode=SMA004">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461015/item/goods_09_461015.jpg?width=750" loading="lazy" alt="Warm Tights">
+                    <div class="btns">
+                        <h4>Warm Tights</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E461015-000?colorCode=COL09&sizeCode=SMA004">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/461013/item/goods_09_461013.jpg?width=750" loading="lazy" alt="HEATTECH Tights">
+                    <div class="btns">
+                        <h4>HEATTECH Tights</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E461013-000?colorCode=COL09&sizeCode=SMA004">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <h2>For KIDS</h2>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450973/item/goods_01_450973.jpg?width=750" loading="lazy" alt="T-Shirt (EXTRA WARM)">
+                    <div class="btns">
+                        <h4>T-Shirt (EXTRA WARM)</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E450973-000?colorCode=COL01&sizeCode=KVI130">Shop Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/450980/item/goods_08_450980.jpg?width=750" loading="lazy" alt="Thermal Leggings (Extra Warm)">
+                    <div class="btns">
+                        <h4>Thermal Leggings (Extra Warm)</h4>
+                        <a href="https://www.uniqlo.com/in/en/products/E450980-000?colorCode=COL08&sizeCode=KVI120">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            &copy; 2024 UNIQLO. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
